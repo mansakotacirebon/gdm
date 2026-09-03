@@ -7,14 +7,7 @@
   "background_color": "#ffffff",
   "theme_color": "#4285f4",
   "orientation": "portrait",
-  {
   "icons": [
-    {
-      "src": "logoman1.svg",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    },
     {
       "src": "logoman1.svg",
       "sizes": "512x512",
@@ -22,5 +15,4 @@
       "purpose": "any"
     }
   ]
-}
 }
