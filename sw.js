@@ -1,9 +1,9 @@
-const CACHE_NAME = 'gdm-v2';
+const CACHE_NAME = 'gdm-v1';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './manifest.json',
-  './logo.svg'
+  './logoman1.svg'
 ];
 
 // Event Install - Caching Aset Utama
