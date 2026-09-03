@@ -10,13 +10,13 @@
   {
   "icons": [
     {
-      "src": "logo.svg",
+      "src": "logoman1.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "maskable"
     },
     {
-      "src": "logo.svg",
+      "src": "logoman1.svg",
       "sizes": "512x512",
       "type": "image/svg+xml",
       "purpose": "any"
