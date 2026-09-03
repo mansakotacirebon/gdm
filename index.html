@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Aplikasi Saya</title>
+          <!-- Link ke file Manifest -->
+            <link rel="manifest" href="manifest.json">
+              <meta name="theme-color" content="#4285f4">
+                  <style>
+                      body, html {
+                            margin: 0;
+                                  padding: 0;
+                                        height: 100%;
+                                              overflow: hidden;
+                                                  }
+                                                      iframe {
+                                                            width: 100%;
+                                                                  height: 100%;
+                                                                        border: none;
+                                                                            }
+                                                                              </style>
+                                                                              </head>
+                                                                              <body>
+                                                                                <!-- Tempel Link Apps Script Anda pada src iframe di bawah -->
+                                                                                  <iframe src="https://script.google.com/macros/s/AKfycbymBV_nc_UEw0NYWQSRYerMSLXtxuPdHRa12z7N6-ctAMUirr7fD9qWhY4GUre8x5Mf/exec"></iframe>
+
+                                                                                    <script>
+                                                                                        // Mendaftarkan Service Worker
+                                                                                            if ('serviceWorker' in navigator) {
+                                                                                                  navigator.serviceWorker.register('sw.js')
+                                                                                                          .then(reg => console.log('SW terdaftar!', reg))
+                                                                                                                  .catch(err => console.error('Gagal daftar SW:', err));
+                                                                                                                      }
+                                                                                                                        </script>
+                                                                                                                        </body>
+                                                                                                                        </html>
+                                                                                                                        
