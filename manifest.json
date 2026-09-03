@@ -1,21 +1,23 @@
 {
-      "name": "Aplikasi GDM",
-        "short_name": "App GDM",
-          "start_url": "./index.html",
-            "display": "standalone",
-              "background_color": "#ffffff",
-                "theme_color": "#4285f4",
-                  "icons": [
-                      {
-                            "src": "icon-192.png",
-                                  "sizes": "192x192",
-                                        "type": "image/png"
-                                            },
-                                                {
-                                                      "src": "icon-512.png",
-                                                            "sizes": "512x512",
-                                                                  "type": "image/png"
-                                                                      }
-                                                                        ]
-                                                                        }
+  "name": "Gerakan Disiplin Madrasah",
+  "short_name": "GDM",
+  "description": "Aplikasi Gerakan Disiplin Madrasah MAN 1 Kota Cirebon",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4285f4",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
 }
